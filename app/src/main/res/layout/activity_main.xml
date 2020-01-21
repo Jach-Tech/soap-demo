@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_value"
+        android:textSize="25dp"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:padding="6dp"
+        android:id="@+id/my_spinner"
+        android:entries="@array/country_names"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_text"
+        android:onClick="getCountryInfo"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/text_view_iso_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/text_view_capital_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/text_view_dial_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/text_view_continent_iso_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/text_view_currency_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"/>
+
+    <ImageView
+        android:id="@+id/flag_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

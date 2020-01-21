@@ -1,0 +1,2 @@
+include ':app', ':ksoap2-android-assembly-3.6.4-jar-with-dependencies'
+rootProject.name='SOAP Demo'
